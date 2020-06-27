@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="img/svmplots.png" height="300"><br>
-  <img src="img/svminterface.png" height="300"><br>
+  <img src="img/svminterface.png" height="500"><br>
 </div>
 
 -----------------
