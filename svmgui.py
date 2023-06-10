@@ -3,16 +3,16 @@ Graphical User Interface to visualize toy SVM models.
 
 Author: Álvaro Barbero Jiménez <albarjip@gmail.com>
 """
-import numpy as np
-import holoviews as hv
-from holoviews import opts
-from holoviews import streams
-import matplotlib
 from functools import partial
-
+import holoviews as hv
+from holoviews import streams
+import logging
+import numpy as np
 from sklearn.svm import LinearSVC, LinearSVR, SVC, SVR, OneClassSVM
 
-hv.extension('bokeh', 'matplotlib')
+logging.captureWarnings(True)  # Suppress warnings
+
+hv.extension('bokeh')
 
 # Plot limits
 XMIN = YMIN = 0
