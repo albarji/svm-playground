@@ -7,7 +7,7 @@
 
 -----------------
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/albarji/svm-playground/master?filepath=svmgui.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/albarji/svm-playground/HEAD?labpath=svmgui.ipynb)
 
 A playground to experiment with **Support Vector Machine** models in a visual way. Just use the binder link above to launch it!
 
