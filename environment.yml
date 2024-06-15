@@ -3,7 +3,10 @@ dependencies:
   - bokeh=2.1.*
   - colorcet=2.0.*
   - holoviews=1.13.*
-  - jupyter=1.0.*
   - pandas=1.0.*
+  - pip=21.2.2
   - python=3.6
   - scikit-learn=0.23.*
+  - pip:
+    - jupyterlab==3.2.9
+    - pyviz_comms==2.0.2
